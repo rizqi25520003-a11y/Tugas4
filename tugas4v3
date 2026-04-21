@@ -7,8 +7,8 @@ class MainActivity : ComponentActivity() {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     Greeting(
                         name = "Rizqi Syahputra",
-age = 19,
-address = "jl.S.Supriadi, Sukun, Malang",
+                        age = 19,
+                        address = "jl.S.Supriadi, Sukun, Malang",
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
